@@ -37,6 +37,34 @@ multiply by 100 to output percent
 
 """
 
+def cal_average(num):
+    sum_num = 0
+    for t in num:
+        sum_num = sum_num + t 
+    avg = sum_num / len(num)
+    return avg
+print ("The average is", cal_average([78,67,56,99,80,83,82,91,94,95,77,88,85,92,91,79,88,82,81,86,94,93,92,45]))
+
+num= 78,67,56,99,80,83,82,91,94,95,77,88,85,92,91,79,88,82,81,86,94,93,92,45
+print (len(num))
+
+
+def cal_average(num2):
+    sum_num2 = 0
+    for t in num2:
+        sum_num2 = sum_num2 + t
+    avg= sum_num2 / len(num2)
+    return avg
+print ("The average is", cal_average ([99,91,94,95,88,85,92,91,88,86,94,93,92]))
+
+num2= 99,91,94,95,88,85,92,91,88,86,94,93,92
+
+
+avg2=(1998 / 1188)
+print("The percentage of grades that are above the average grade is", (avg2*100))
+
+
+
 
 
 
