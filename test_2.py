@@ -24,7 +24,18 @@ above the average grade.
 
 """
 
+"""
+# function1 
+main() to start up the application
+return sum / 24 
 
+
+#function2
+calculate_percent_above_average()
+sum of higher grades above average divided by average grade (83.25)
+multiply by 100 to output percent
+
+"""
 
 
 
